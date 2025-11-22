@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="title desc">
+  <title id="title">White box truck illustration</title>
+  <desc id="desc">Side view of a white box truck on a dark background</desc>
+  <defs>
+    <linearGradient id="cab" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+    <linearGradient id="box" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc" />
+      <stop offset="100%" stop-color="#e2e8f0" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#0f172a" rx="24" />
+  <rect x="140" y="120" width="370" height="180" rx="12" fill="url(#box)" stroke="#cbd5e1" stroke-width="6" />
+  <rect x="110" y="180" width="170" height="120" rx="14" fill="url(#cab)" stroke="#cbd5e1" stroke-width="6" />
+  <rect x="142" y="195" width="70" height="50" rx="8" fill="#0f172a" stroke="#cbd5e1" stroke-width="6" />
+  <rect x="214" y="195" width="50" height="32" rx="6" fill="#cbd5e1" />
+  <rect x="346" y="150" width="140" height="80" rx="8" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="4" />
+  <rect x="346" y="244" width="40" height="16" rx="3" fill="#cbd5e1" />
+  <rect x="398" y="244" width="40" height="16" rx="3" fill="#cbd5e1" />
+  <rect x="450" y="244" width="40" height="16" rx="3" fill="#cbd5e1" />
+  <path d="M100 280 H520" stroke="#1e293b" stroke-width="18" stroke-linecap="round" />
+  <circle cx="200" cy="300" r="46" fill="#0f172a" stroke="#1f2937" stroke-width="8" />
+  <circle cx="200" cy="300" r="24" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="10" />
+  <circle cx="430" cy="300" r="46" fill="#0f172a" stroke="#1f2937" stroke-width="8" />
+  <circle cx="430" cy="300" r="24" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="10" />
+  <circle cx="200" cy="300" r="8" fill="#94a3b8" />
+  <circle cx="430" cy="300" r="8" fill="#94a3b8" />
+  <path d="M110 266 c30-26 80-32 114-10" stroke="#eab308" stroke-width="6" stroke-linecap="round" fill="none" />
+  <path d="M360 266 c38-18 84-18 120 4" stroke="#eab308" stroke-width="6" stroke-linecap="round" fill="none" />
+  <rect x="260" y="230" width="60" height="16" rx="6" fill="#eab308" />
+  <rect x="290" y="254" width="90" height="12" rx="6" fill="#334155" />
+  <rect x="320" y="270" width="50" height="8" rx="4" fill="#1f2937" />
+</svg>
