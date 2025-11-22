@@ -13,8 +13,6 @@
   </defs>
 
   <rect width="640" height="400" rx="24" fill="url(#bg)" />
-  <line x1="120" y1="290" x2="520" y2="290" stroke="#0b1329" stroke-width="10" stroke-linecap="round" />
-
   <g transform="translate(140 110)">
     <rect x="90" y="90" width="240" height="120" rx="12" fill="url(#body)" stroke="#cbd5e1" stroke-width="10" />
     <rect x="330" y="112" width="90" height="98" rx="12" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="8" />
