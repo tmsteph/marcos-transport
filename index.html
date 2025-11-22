@@ -65,15 +65,40 @@
             <div class="absolute inset-0 bg-gradient-to-tr from-yellow-500/20 via-transparent to-sky-500/20 blur-3xl pointer-events-none"></div>
             <div class="relative border border-slate-700 rounded-2xl p-4 bg-gradient-to-br from-slate-900 to-slate-950 shadow-xl">
               <div class="aspect-[4/3] w-full rounded-xl border border-slate-700 overflow-hidden bg-slate-900 flex items-center justify-center text-center px-4">
-                <p class="text-sm text-slate-300">
-                  Add a photo of Marcos’s truck here.<br />
-                  For now this is a placeholder card.
-                </p>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" role="img" aria-labelledby="truck-title truck-desc" class="w-full h-full object-contain" focusable="false">
+                  <title id="truck-title">Simple box truck logo</title>
+                  <desc id="truck-desc">Minimal two-box box truck with two wheels on a dark backdrop</desc>
+                  <defs>
+                    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+                      <stop offset="0%" stop-color="#0f172a" />
+                      <stop offset="100%" stop-color="#0b1220" />
+                    </linearGradient>
+                    <linearGradient id="body" x1="0%" y1="0%" x2="100%" y2="0%">
+                      <stop offset="0%" stop-color="#e5e7eb" />
+                      <stop offset="100%" stop-color="#d5dae1" />
+                    </linearGradient>
+                  </defs>
+
+                  <rect width="640" height="400" rx="24" fill="url(#bg)" />
+                  <line x1="120" y1="290" x2="520" y2="290" stroke="#0b1329" stroke-width="10" stroke-linecap="round" />
+
+                  <g transform="translate(140 110)">
+                    <rect x="90" y="90" width="240" height="120" rx="12" fill="url(#body)" stroke="#cbd5e1" stroke-width="10" />
+                    <rect x="330" y="112" width="90" height="98" rx="12" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="8" />
+                    <rect x="348" y="128" width="54" height="32" rx="8" fill="#0ea5e9" stroke="#cbd5e1" stroke-width="6" />
+                    <rect x="90" y="210" width="330" height="16" rx="8" fill="#111827" />
+
+                    <circle cx="150" cy="212" r="44" fill="#0b1220" stroke="#020617" stroke-width="10" />
+                    <circle cx="150" cy="212" r="20" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="8" />
+                    <circle cx="330" cy="212" r="44" fill="#0b1220" stroke="#020617" stroke-width="10" />
+                    <circle cx="330" cy="212" r="20" fill="#e2e8f0" stroke="#cbd5e1" stroke-width="8" />
+                  </g>
+                </svg>
               </div>
               <div class="mt-4 flex justify-between text-xs text-slate-300">
                 <div>
                   <div class="font-semibold text-sm">Truck Type</div>
-                  <div>Pickup / Flatbed / Box (edit)</div>
+                  <div>16–18 ft box truck • Lift gate available</div>
                 </div>
                 <div class="text-right">
                   <div class="font-semibold text-sm">Typical Loads</div>
